@@ -20,9 +20,11 @@ const { length, save, numbers, symbols } = program.opts();
 const generatedPassword = createPassword(length, numbers, symbols);
 
 //save to file
-if (save)
-  //Copy to clipboard
-  clipboardy.writeSync(generatedPassword);
+if (save) {
+  savePassword(generatedPassword);
+}
+//Copy to clipboard
+clipboardy.writeSync(generatedPassword);
 
 // Output generated password
 log(chalk.blue("Generated password: ") + chalk.bold(generatedPassword));
