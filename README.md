@@ -1,10 +1,6 @@
-# Pgen Password Generator
+# pgen Password Generator
 
 A simple CLI password generator
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
