@@ -1,0 +1,24 @@
+{
+  "name": "pgen",
+  "version": "1.0.0",
+  "description": "Simple password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwagner76/node-password-gen.git"
+  },
+  "author": "Ian Wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwagner76/node-password-gen/issues"
+  },
+  "homepage": "https://github.com/iwagner76/node-password-gen#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
