@@ -43,7 +43,7 @@ Chalk is used to style the CLI strings
 npm install chalk
 ```
 
-Clipboardy is uded to copy the generated password to the clipboard automatically
+Clipboardy is used to copy the generated password to the clipboard automatically
 
 ```
 npm install clipboardy
